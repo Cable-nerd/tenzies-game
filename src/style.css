@@ -21,9 +21,10 @@ main {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 800px;
-  padding: 10px 10px;
+
 }
+
+
 .description {
   /* border: 1px solid red; */
   padding: 0 40px;
@@ -31,6 +32,7 @@ main {
   width: min(300px, 100%-15rem);
   margin-bottom: 4rem;
 }
+
 .title {
   font-size: 3rem;
 }
@@ -40,12 +42,20 @@ main {
   font-weight: 500;
   line-height: 25px;
 }
-
+.instruct-won {
+  color: #0a2433;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 25px;
+  transition: all .5s;
+  
+}
 .container {
   display: grid;
-  width: 400px;
+  width: 100%;
   gap: 2rem;
   grid-template-columns: repeat(5, 1fr);
+  width: auto;
 }
 
 .die {
